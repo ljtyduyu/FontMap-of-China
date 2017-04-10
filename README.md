@@ -29,47 +29,38 @@ library(grid)
 ```r
 url<-"https://github.com/haoyuns/EyesAsia"
 table<-read_html(url,encoding="utf-8")%>%html_table()%>%.[[2]]
-
-整理索引表：
-
 table1<-table[table$lowercase!="",]
 table2<-table[table$lowercase=="",]%>%.[,2:3]
-
 table11<-table1[,1:2]%>%rename(case=lowercase)
 table12<-table1[,3:4]%>%rename(case=UPPERCASE)
 table13<-table2%>%rename(case=Content,Content=UPPERCASE)
 tabledata<-rbind(table11,table12,table13)
 ```
 
-分列，整理字体对应的名称，省份，编号：<br>
+筛选出中国的34个省级行政区
 
-'''r
+```r
 tabledata$Cname<-str_extract(tabledata$Content,"[\\u4e00-\\u9fa5]+")
 tabledata$Ename<-str_extract(tabledata$Content,"[^\\u4e00-\\u9fa5]+")%>%str_trim(side=c("right"))
 tabledata<-tabledata[,-2]
 setwd("D:/R/File")
 write.table(tabledata,"EyesAsia.csv",sep=",",row.names=FALSE)
-
 word<-c("日本","蒙古","朝鲜","韩国","青海湖","鄱阳湖","洞庭湖","太湖","洪泽湖")
 mymapdata$m<-mymapdata$Cname %in% word
 mymapdata<-mymapdata%>%filter(m==FALSE)%>%.[,1:3]
 write.table(mymapdata,"EyesAsia.csv",sep=",",row.names=FALSE)
 '''
 
-
-###作图主要过程分为三部分：
+作图主要过程分为三部分：
 
 ####步骤一：外围字体圆环图：
 
-导入数据：<br>
-
-```r
-mymapdata<-read.csv("EyesAsia.csv",stringsAsFactors=FALSE,check.names=FALSE)
-```
+导入数据：
 
 生成一个虚拟指标，并分割为有序分段因子变量。
 
 ```r
+mymapdata<-read.csv("EyesAsia.csv",stringsAsFactors=FALSE,check.names=FALSE)
 mymapdata<-transform(mymapdata,scale=5,peform=runif(34,20,50))
 mymapdata$scale<-as.numeric(mymapdata$scale)
 mymapdata$group<-cut(mymapdata$peform,breaks=c(20,26,32,38,44,50),levels=,labels=c("20~26","26~32","32~38","38~44","44~50"),order=TRUE)
@@ -95,8 +86,7 @@ axis.text=element_blank(),
 )
 showtext.end()
 dev.off()
-```
---------------------------------------------------------------------------------------------------------------- ------------------     
+```  
 
 ####步骤二：接下来制作中心的中国地图
 
