@@ -49,17 +49,17 @@ word<-c("日本","蒙古","朝鲜","韩国","青海湖","鄱阳湖","洞庭湖",
 mymapdata$m<-mymapdata$Cname %in% word
 mymapdata<-mymapdata%>%filter(m==FALSE)%>%.[,1:3]
 write.table(mymapdata,"EyesAsia.csv",sep=",",row.names=FALSE)
-'''
+```
 
 作图主要过程分为三部分：
 
 ####步骤一：外围字体圆环图：
 
-导入数据：
 
-生成一个虚拟指标，并分割为有序分段因子变量。
 
 ```r
+#导入数据：
+#生成一个虚拟指标，并分割为有序分段因子变量。
 mymapdata<-read.csv("EyesAsia.csv",stringsAsFactors=FALSE,check.names=FALSE)
 mymapdata<-transform(mymapdata,scale=5,peform=runif(34,20,50))
 mymapdata$scale<-as.numeric(mymapdata$scale)
