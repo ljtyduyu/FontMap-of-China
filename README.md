@@ -46,6 +46,7 @@ tabledata<-tabledata[,-2]
 setwd("D:/R/File")
 write.table(tabledata,"EyesAsia.csv",sep=",",row.names=FALSE)
 word<-c("日本","蒙古","朝鲜","韩国","青海湖","鄱阳湖","洞庭湖","太湖","洪泽湖")
+mymapdata<-tabledata
 mymapdata$m<-mymapdata$Cname %in% word
 mymapdata<-mymapdata%>%filter(m==FALSE)%>%.[,1:3]
 write.table(mymapdata,"EyesAsia.csv",sep=",",row.names=FALSE)
