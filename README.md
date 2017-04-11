@@ -194,7 +194,7 @@ mydatanew<-dplyr::arrange(mydatanew,ID,order)
 mydatanew_map_data<-merge(mydatanew,china_city_data[,c(2,3,4)])
 ```
 
-预览地图素材是否可用：
+预览地图素材是否可用：<br>
 
 ```r
 ggplot(mydatanew_map_data,aes(long,lat,group=group))+geom_polygon(col="white",fill="grey")+
@@ -207,7 +207,9 @@ coord_map("polyconic")+
           axis.title = element_blank()
           )
 ```
-预览效果图：
+
+预览效果图：<br>
+
 ![test](https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/ploygon.png)
 
 
@@ -279,7 +281,7 @@ coord_map("polyconic")+
 ![ChinaMap](https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/China.png)
 
 
-拼接：
+拼接：<br>
 
 ```r
 CairoPNG("chineserador.png",1000,1000)
@@ -292,7 +294,7 @@ showtext.end()
 dev.off()
 ```
 
-以下是最终的结果：
+以下是最终的结果：<br>
 
 ![Final](https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/Final.png)
 
