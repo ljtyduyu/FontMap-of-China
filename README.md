@@ -289,7 +289,7 @@ dev.off()
 
 以下是最终的结果：
 
-![Final(https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/Final.png)
+![Final](https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/Final.png)
 
 #OK了，做完收工~
 
