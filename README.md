@@ -18,9 +18,9 @@ library(grid)
 
 由于本文用到了一款中国行政区划的字体地图——EyesAsia，每一个行政区都是以一个字母代替的，所以需要获取该地图字体对应的索引表。<br>
 
-该字体的开源项目主页为：[EyesAsia](https://github.com/HaoyunS/EyesAsia)
+> 该字体的开源项目主页为：[EyesAsia](https://github.com/HaoyunS/EyesAsia)
 
-与此对应的，还有一款也很fashion的字体地图（StateFace），<br>是美帝的行政区划字体地图。项目主页在这里:
+> 与此对应的，还有一款也很fashion的字体地图（StateFace），<br>是美帝的行政区划字体地图。项目主页在这里:
 [stateface](https://propublica.github.io/stateface)
 
 
@@ -312,7 +312,7 @@ qq交流群：[魔方学院]553270834
 
 个人简介：
 -------------------------------------------------
-杜雨 <br>
+**杜雨** <br>
 财经专业研究僧； <br>
 伪数据可视化达人； <br>
 文科背景的编程小白； <br>
