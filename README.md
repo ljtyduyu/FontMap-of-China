@@ -87,6 +87,7 @@ showtext.end()
 dev.off()
 ```  
 
+
 步骤二：接下来制作中心的中国地图
 ===================================
 
@@ -246,7 +247,13 @@ panel.grid=element_blank(),
 axis.title=element_blank(),
 axis.text=element_blank(),
 )
+```
 
+图表效果大致是这样的：<br>
+
+![circle](https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/circle.png)
+
+```r
 p2<-ggplot(china_city_data,aes(map_id=region,fill=group))+
 geom_map(map=mydatanew_map_data,colour="white")+
 expand_limits(x=mydatanew_map_data$long,y=mydatanew_map_data$lat)+
@@ -262,6 +269,11 @@ coord_map("polyconic")+
           )
 ```
 
+图表效果大致是这样的：<br>
+
+![ChinaMap](https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/China.png)
+
+
 拼接：
 
 ```r
@@ -275,4 +287,11 @@ showtext.end()
 dev.off()
 ```
 
+以下是最终的结果：
+
+![Final(https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/Final.png)
+
 #OK了，做完收工~
+
+
+
