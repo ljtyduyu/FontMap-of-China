@@ -1,9 +1,10 @@
 FontMap-of-China
-============
+===============
 Use the font of EyesAsia to make a beautiful ChinaMap which circles each privince ploygon.
------------
+-----------===
 
 library the packages <br>
+
 ```r
 library(rvest)           
 library(dplyr)          
@@ -24,7 +25,6 @@ library(grid)
 
 
 一共43个编号，以下是提取过程，因为是一个table，所以可以直接使用rvest非常便捷的表格抓取工具。<br>
-
 
 ```r
 url<-"https://github.com/haoyuns/EyesAsia"
