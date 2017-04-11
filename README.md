@@ -317,8 +317,8 @@ qq交流群：[魔方学院]553270834
 伪数据可视化达人； <br>
 文科背景的编程小白； <br>
 喜欢研究商务图表与地理信息数据可视化，爱倒腾PowerBI、SAP DashBoard、Tableau、R ggplot2、Think-cell chart等诸如此类的数据可视化软件，创建并运营微信公众号“数据小魔方”。 <br>
-Mail:578708965@qq.com
-
+Mail:578708965@qq.com <br>
+![resume](https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/resume.png)
 -------------------------------------------
 
 备注信息：
