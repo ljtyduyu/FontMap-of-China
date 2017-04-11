@@ -18,7 +18,7 @@ library(grid)
 
 > 由于本文用到了一款中国行政区划的字体地图——EyesAsia，每一个行政区都是以一个字母代替的，所以需要获取该地图字体对应的索引表。该字体的开源项目主页为：[EyesAsia](https://github.com/HaoyunS/EyesAsia)
 
-> 与此对应的，还有一款也很fashion的字体地图（StateFace），<br>是美帝的行政区划字体地图。项目主页在这里:[stateface](https://propublica.github.io/stateface)
+> 与此对应的，还有一款也很fashion的字体地图（StateFace），是美帝的行政区划字体地图。项目主页在这里:[stateface](https://propublica.github.io/stateface)
 
 
 一共43个编号，以下是提取过程，因为是一个table，所以可以直接使用rvest非常便捷的表格抓取工具。<br>
