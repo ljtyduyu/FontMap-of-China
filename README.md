@@ -87,7 +87,6 @@ showtext.end()
 dev.off()
 ```  
 
-
 步骤二：接下来制作中心的中国地图
 ===================================
 
@@ -110,6 +109,8 @@ setwd("D:/R/mapdata/State/")
 china_data<-fromJSON("china.json")
 json_tree_view(china_data) 
 ```
+
+![jsontree](https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/jsonview.png)
 
 最新发现的可以自动化解析并渲染json树结构的包，它不仅可以渲染json数据，也可以渲染xml、html格式的树结构：<br>
 
@@ -205,6 +206,9 @@ coord_map("polyconic")+
           axis.title = element_blank()
           )
 ```
+预览效果图：
+![test](https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/ploygon.png)
+
 
 最后放个大招，用两个地图品进行拼接，合并。
 =======================================
