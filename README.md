@@ -85,6 +85,8 @@ showtext.end()
 dev.off()
 ```  
 
+![circle](https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/circle.png)
+
 步骤二：接下来制作中心的中国地图
 -----------------------------------------------------
 
