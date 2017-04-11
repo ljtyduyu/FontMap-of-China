@@ -1,7 +1,7 @@
 FontMap-of-China
 ===============
 Use the font of EyesAsia to make a beautiful ChinaMap which circles each privince ploygon.
------------===
+--------------
 
 library the packages <br>
 
@@ -16,9 +16,7 @@ library(ggplot2)
 library(grid)           
 ```
 
-由于本文用到了一款中国行政区划的字体地图——EyesAsia，每一个行政区都是以一个字母代替的，所以需要获取该地图字体对应的索引表。<br>
-
-> 该字体的开源项目主页为：[EyesAsia](https://github.com/HaoyunS/EyesAsia)
+> 由于本文用到了一款中国行政区划的字体地图——EyesAsia，每一个行政区都是以一个字母代替的，所以需要获取该地图字体对应的索引表。该字体的开源项目主页为：[EyesAsia](https://github.com/HaoyunS/EyesAsia)
 
 > 与此对应的，还有一款也很fashion的字体地图（StateFace），<br>是美帝的行政区划字体地图。项目主页在这里:
 [stateface](https://propublica.github.io/stateface)
@@ -91,8 +89,7 @@ dev.off()
 步骤二：接下来制作中心的中国地图
 ===================================
 
-其实针对中国省级地图素材而言，大部分shp格式的地图都是可以放心使用的， <br>
-但是为了练习自己对于json数据的操控能力（毕竟是非常流行的web端数据存储格式），<br>
+其实针对中国省级地图素材而言，大部分shp格式的地图都是可以放心使用的，但是为了练习自己对于json数据的操控能力（毕竟是非常流行的web端数据存储格式），
 这里我硬生生的抽取了json格式的中国地图数据，所以以下代码看着有些不适，请大家谨慎观看！<br>
 
 ```r
@@ -131,12 +128,9 @@ china_city_data$group<-cut(china_city_data$size,breaks=c(900,950,1000,1050,1100,
 china_map_data<-china_data$features$geometry$coordinates
 ```
 
-还时上次讲到的困难，中国某些省份辖区内有独立于主区域的分离区域<br>
-（比如河北的廊坊，以及山东、及南部沿海多岛屿的省份）。<br>
+还时上次讲到的困难，中国某些省份辖区内有独立于主区域的分离区域（比如河北的廊坊，以及山东、及南部沿海多岛屿的省份）。<br>
 
-今天这个json素材要比上次提取的那个安徽省的素材更加复杂，<br>
-具体步骤也不详细讲解了，看不太懂就直接略过吧，<br>
-反正代码写的也比较烂，基本写不出那种可以通用的代码！<br>
+今天这个json素材要比上次提取的那个安徽省的素材更加复杂，具体步骤也不详细讲解了，看不太懂就直接略过吧，反正代码写的也比较烂，基本写不出那种可以通用的代码！<br>
 
 ```r
 num<-c();id<-c()
