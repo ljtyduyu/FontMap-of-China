@@ -115,6 +115,7 @@ json_tree_view(china_data)
 <img src="https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/jsonview.png" width = "400" height = "400" alt="jsontree" align=center />
 </div>
 
+
 最新发现的可以自动化解析并渲染json树结构的包，它不仅可以渲染json数据，也可以渲染xml、html格式的树结构：<br>
 
 抽取行政区里列表信息：
@@ -264,8 +265,6 @@ axis.text=element_blank(),
 <img src="https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/circle.png" width = "450" height = "450" alt="circle" align=center />
 </div>
 
-
-
 ```r
 p2<-ggplot(china_city_data,aes(map_id=region,fill=group))+
 geom_map(map=mydatanew_map_data,colour="white")+
@@ -285,7 +284,7 @@ coord_map("polyconic")+
 图表效果大致是这样的：<br>
 
 <div  align="center">    
-<img src="https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/China.png" width = "550" height = "550" alt="ChinaMap" align=center />
+<img src="https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/China.png" width = "500" height = "500" alt="ChinaMap" align=center />
 </div>
 
 
