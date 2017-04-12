@@ -284,8 +284,6 @@ coord_map("polyconic")+
 
 图表效果大致是这样的：<br>
 
-![ChinaMap](https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/China.png)
-
 <div  align="center">    
 <img src="https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/China.png" width = "550" height = "550" alt="ChinaMap" align=center />
 </div>
@@ -305,8 +303,6 @@ dev.off()
 ```
 
 以下是最终的结果：<br>
-
-![Final](https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/Final.png)
 
 <div  align="center">    
 <img src="https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/Final.png" width = "500" height = "500" alt="Final" align=center />
