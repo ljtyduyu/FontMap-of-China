@@ -304,7 +304,7 @@ dev.off()
 以下是最终的结果：<br>
 
 <div  align="center">    
-<img src="https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/Final.png" width = "600" height = "350" alt="Final" align=center />
+<img src="https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/Final.png" width = "400" height = "400" alt="Final" align=center />
 </div>
 
 
@@ -330,7 +330,7 @@ qq交流群：[魔方学院]553270834
 Mail:578708965@qq.com <br>
 
 <div  align="center">    
-<img src="https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/resume.png" width = "500" height = "300" alt="resume" align=center />
+<img src="https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/resume.png" width = "550" height = "300" alt="resume" align=center />
 </div>
 
 -------------------------------------------
