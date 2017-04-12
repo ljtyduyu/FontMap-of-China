@@ -85,7 +85,9 @@ showtext.end()
 dev.off()
 ```  
 
-![circle](https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/circle.png)
+<div  align="center">    
+<img src="https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/circle.png" width = "500" height = "500" alt="circle" align=center />
+</div>
 
 步骤二：接下来制作中心的中国地图
 -----------------------------------------------------
@@ -109,7 +111,9 @@ china_data<-fromJSON("china.json")
 json_tree_view(china_data) 
 ```
 
-![jsontree](https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/jsonview.png)
+<div  align="center">    
+<img src="https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/jsonview.png" width = "400" height = "400" alt="jsontree" align=center />
+</div>
 
 最新发现的可以自动化解析并渲染json树结构的包，它不仅可以渲染json数据，也可以渲染xml、html格式的树结构：<br>
 
@@ -205,7 +209,10 @@ coord_map("polyconic")+
 
 预览效果图：<br>
 
-![test](https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/ploygon.png)
+
+<div  align="center">    
+<img src="https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/ploygon.png" width = "400" height = "400" alt="test" align=center />
+</div>
 
 
 最后放个大招，用两个地图品进行拼接，合并。
@@ -253,7 +260,11 @@ axis.text=element_blank(),
 
 图表效果大致是这样的：<br>
 
-![circle](https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/circle.png)
+<div  align="center">    
+<img src="https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/circle.png" width = "450" height = "450" alt="circle" align=center />
+</div>
+
+
 
 ```r
 p2<-ggplot(china_city_data,aes(map_id=region,fill=group))+
@@ -275,6 +286,10 @@ coord_map("polyconic")+
 
 ![ChinaMap](https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/China.png)
 
+<div  align="center">    
+<img src="https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/China.png" width = "550" height = "550" alt="ChinaMap" align=center />
+</div>
+
 
 拼接：<br>
 
@@ -292,6 +307,11 @@ dev.off()
 以下是最终的结果：<br>
 
 ![Final](https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/Final.png)
+
+<div  align="center">    
+<img src="https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/Final.png" width = "500" height = "500" alt="Final" align=center />
+</div>
+
 
 #OK了，做完收工~
 
@@ -313,8 +333,9 @@ qq交流群：[魔方学院]553270834
 文科背景的编程小白； <br>
 喜欢研究商务图表与地理信息数据可视化，爱倒腾PowerBI、SAP DashBoard、Tableau、R ggplot2、Think-cell chart等诸如此类的数据可视化软件，创建并运营微信公众号“数据小魔方”。 <br>
 Mail:578708965@qq.com <br>
-![resume](https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/resume.png)
-
+<div  align="center">    
+<img src="https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/resume.png" width = "300" height = "300" alt="resume" align=center />
+</div>
 -------------------------------------------
 
 备注信息：
