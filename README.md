@@ -304,7 +304,7 @@ dev.off()
 以下是最终的结果：<br>
 
 <div  align="center">    
-<img src="https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/Final.png" width = "500" height = "500" alt="Final" align=center />
+<img src="https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/Final.png" width = "600" height = "350" alt="Final" align=center />
 </div>
 
 
