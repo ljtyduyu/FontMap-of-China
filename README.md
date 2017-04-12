@@ -330,7 +330,7 @@ qq交流群：[魔方学院]553270834
 Mail:578708965@qq.com <br>
 
 <div  align="center">    
-<img src="https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/resume.png" width = "300" height = "300" alt="resume" align=center />
+<img src="https://github.com/ljtyduyu/FontMap-of-China/blob/master/Image/resume.png" width = "500" height = "300" alt="resume" align=center />
 </div>
 
 -------------------------------------------
